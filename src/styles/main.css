@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding-left: 55px;
 }
 
 .header, .main {
@@ -95,6 +96,7 @@ body {
     font-family: Arial;
     font-size: 18px;
     color: #434244;
+    line-height: 30px;
 }
 
 .personal-info__text_bold {
@@ -104,4 +106,53 @@ body {
 .footer {
     height: 45px;
     background-color: #e8c734;
+}
+
+.blog-elements {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-element-date__text {
+    padding-top: 40px;
+    font-size: 19px;
+    font-family: Arial;
+    color: #8c8c8c;
+}
+
+.blog-element-title__text {
+    padding-top: 30px;
+    margin: 0;
+    font-size: 19px;
+    font-family: Arial;
+    color: #1a1a1a;
+}
+
+.blog-element-subtitle__text {
+    padding-top: 10px;
+    margin: 0;
+    font-size: 19px;
+    font-family: Arial;
+    color: #1a1a1a;
+}
+
+.blog-element-subtitle__link {
+    margin: 0;
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.blog-element-description__text-bold {
+    font-weight: bold;
+}
+
+.blog-element-description__text {
+    width: 650px;
+    padding-top: 25px;
+    margin: 0;
+    color: #8c8c8c;
+    font-size: 17px;
+    font-family: Arial;
+    line-height: 30px;
+    padding-bottom: 10px;
 }
